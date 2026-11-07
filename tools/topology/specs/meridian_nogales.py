@@ -1,5 +1,5 @@
 from topo import Diagram
-OUT = 'highlights/project-meridian/docs/diagrams/nogales'
+OUT = 'docs/diagrams/nogales'
 def build():
     d = Diagram(1200, 1150)
     d.area(40, 150, 1120, 560, 'RIPng process1 (redistributed into OSPFv3 at R1)')

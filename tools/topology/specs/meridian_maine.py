@@ -1,5 +1,5 @@
 from topo import Diagram
-OUT = 'highlights/project-meridian/docs/diagrams/maine'
+OUT = 'docs/diagrams/maine'
 def build():
     d = Diagram(1250, 900)
     d.area(40, 150, 1170, 700, 'OSPFv3 process 10 · area 2')

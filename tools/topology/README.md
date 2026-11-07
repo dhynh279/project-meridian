@@ -1,6 +1,6 @@
 # tools/topology
 
-Draws the topology diagrams for the Meridian, North Pole and Lattice highlights in the same style as the CCNA case study diagram.
+Draws the topology diagrams in `docs/diagrams/` for Project Meridian.
 
 - `topo.py`: small SVG library (nodes, dashed area regions, serial / Ethernet / fiber / EtherChannel / tunnel links, interface labels, legend)
 - `specs/*.py`: one file per diagram; `OUT` is the output path, `build()` returns the diagram

@@ -1,5 +1,5 @@
 from topo import Diagram
-OUT = 'highlights/project-meridian/docs/diagrams/wan'
+OUT = 'docs/diagrams/wan'
 
 def build():
     d = Diagram(1420, 1010)
